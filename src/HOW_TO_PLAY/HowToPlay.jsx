@@ -22,10 +22,11 @@ const HowToPlay = () => {
   return (
     <section className='How'>
       <div className="HowToPlaySec">
-        <h1 className='hidden-What'>How To <span className='play'>Play & Earn</span> On <span className='duck'>CapitalDuck!</span></h1>
+        <h1 className='hidden-What'><span className='play'>Play And Earn</span> <br /><span className='duck'>FUN. FAIR. REWARDED!</span></h1>
         <div className="Cardcontainer cardCon">
-        <div className="card hidden-How">
+        <div className="hidden-How">
           <h1>STEP ONE</h1>
+         <div className="card">
           <h2><span><GiJourney /></span> Choose Your Path </h2>
           <div className="details">
           <h3>For Stakers:</h3>
@@ -33,10 +34,13 @@ const HowToPlay = () => {
           <h3>For Non-Stakers:</h3>
           <p> - No Investment Needed: Start farming without an initial stake, but at a reduced earning speed...</p>
           </div>
+          </div>
 
         </div>
-        <div className="card hidden-How">
+        <div className="hidden-How">
           <h1>STEP TWO</h1>
+          <div className="card">
+
           <h2> <span><RiHandCoinLine /></span> Farm Coins</h2>
           <div className="details">
           <h3>Tap to Earn:</h3>
@@ -44,19 +48,23 @@ const HowToPlay = () => {
           <h3>Boost Your Tap Speed:</h3>
           <p> Purchase or earn boosts to increase your tap speed, allowing you to earn coins even faster.</p>
           </div>
-
+         </div>
         </div>
-        <div className="card hidden-How">
+        <div className="hidden-How">
+         
           <h1>STEP THREE</h1>
+         <div className="card">
           <h2><span><FaPeopleGroup /></span> Invite Friends</h2>
           <div className="details">
           <h3> Earn Bonuses: </h3>
           <p>Invite friends to join the game. For each friend that joins and starts farming, you will earn bonuses</p> 
           </div>
+          </div>
 
         </div>
-        <div className="card hidden-How">
+        <div className="hidden-How">
           <h1>STEP FOUR</h1>
+         <div className="card">
           <h2><span><BsCashCoin /></span> Collect and Convert Coins </h2>
           <div className="details">
           <h3> Coin Conversion:</h3>
@@ -64,6 +72,7 @@ const HowToPlay = () => {
           <h3> Surprise Payouts:</h3>
           <p>Payouts are announced 5 days before the payday. Stay tuned for announcements to know when the next payout will be.
           </p>
+          </div>
           </div>
 
         </div>
