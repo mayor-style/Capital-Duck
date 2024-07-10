@@ -40,8 +40,8 @@ const Why = () => {
                 <div className="WhyIcon">
                 <GiShinyIris className='icon'/>
                 </div>
-                <h3>Tap to Prosper</h3>
-                <p>Simply tap to farm coins. The more you tap, the more you earn!</p>
+                <h3>Earn As You Play</h3>
+                <p>Turn your leisure time into profit! Each tap brings you closer to real rewards.</p>
             </div>
             <div className="WhyCon hidden-Why">
                 <div className="WhyIcon">
