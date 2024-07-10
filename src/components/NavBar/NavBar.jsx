@@ -8,33 +8,30 @@ import { FaTelegramPlane } from "react-icons/fa";
 import { BiMenuAltLeft } from "react-icons/bi";
 const NavBar = () => {
 useEffect(()=>{
-    const HideNav = document.querySelector(".showBurger")   
-    const mobileNav = document.querySelector('.mobileNav')
-    const showNav = document.querySelector(".hamburger")
+   const closeMenu = document.querySelector(".showBurger")   
+    const middleNav = document.querySelector('#middleNav')
+    const openMenu = document.querySelector(".hamburger")
     
-    showNav.addEventListener("click", ()=>{
-        mobileNav.style.display = "flex"
+     openMenu.addEventListener("click", ()=>{
+        middleNav.removeAttribute("id")
+        middleNav.classList.add("showNav")
 
     });
-    
-    HideNav.addEventListener("click", ()=>{
-        mobileNav.style.display = "none"
-    } );
 
+    closeMenu.addEventListener("click", ()=>{
+        middleNav.classList.remove("showNav")
+        middleNav.removeAttribute("class")
+        middleNav.setAttribute("id", "middleNav")
+    })
 },[])
-
-
-
-
-
   return (
     <nav>
         <div className="NavBar">
             <div className="left">
-                <img src={Icon} alt="" />
+                <img src={Icon} alt="logo" />
             </div>
 
-            <div className="mobileNav">
+            <div className="middleNav">
             <div className="middle">
                 <button>Launch Capital Duck</button>
             </div>
