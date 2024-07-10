@@ -119,6 +119,10 @@ p{
         font-size: 37px;
     }
 
+    .HeroSec{
+        padding:40px 35px 50px 35px;
+    }
+    
     .HeroSec h1 span{
         font-size: 27px;
     }
