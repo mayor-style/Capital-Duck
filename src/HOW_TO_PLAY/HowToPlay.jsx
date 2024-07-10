@@ -29,7 +29,7 @@ const HowToPlay = () => {
           <h2><span><GiJourney /></span> Choose Your Path </h2>
           <div className="details">
           <h3>For Stakers:</h3>
-          <p>- Invest to Begin: Start farming by staking as low as $1. This small investment gives you a higher earning speed. The higher the Stake, the higher and faster the earning is!</p> <br />
+          <p>- Invest to Begin: Start farming by staking as low as <span style={{font-size:"18px"}}>$</span>1. This small investment gives you a higher earning speed. The higher the Stake, the higher and faster the earning is!</p> <br />
           <h3>For Non-Stakers:</h3>
           <p> - No Investment Needed: Start farming without an initial stake, but at a reduced earning speed...</p>
           </div>
