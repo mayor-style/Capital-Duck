@@ -5,10 +5,10 @@ import './PreLoader.css'
 const PreLoader = () => {
 
     const [text] = useTypewriter({
-      words:["Welcome To CapitalDuck!"],
+      words:["Welcome To CapitalDuck!", "The Ultimate Platform Where Your Taps Turn Into Real Rewards!"],
       loop:{},
-      typeSpeed:80,
-      deleteSpeed:40,
+      typeSpeed:60,
+      deleteSpeed:30,
       
     });
 
