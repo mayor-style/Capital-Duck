@@ -31,7 +31,7 @@ const Why = () => {
                 <GiHumanPyramid className='icon'/>
                 </div>
                 <h3>Flexible Participation</h3>
-                <p className='stake'><span>Stakers:</span> Begin with a minimum of $1 stake for higher earningy speed! 
+                <p className='stake'><span>Stakers:</span> Begin with a minimum of $1 stake for higher earning speed! 
                 
                 </p>
                 <p><span>Non-Stakers:</span> Start farming without an initial investment at a reduced earning speed, making it accessible for everyone.</p>
