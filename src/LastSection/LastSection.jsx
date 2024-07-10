@@ -7,7 +7,10 @@ import { FaTelegramPlane } from "react-icons/fa";
 const LastSection = () => {
   return (
     <section>
-        <div className="lastSec">
+         <div className="lastSec hidden-What">
+        <div className="logo">
+        <img src={webIcon} style={{height:"150px"}} alt="logo" />
+        </div>
       <h1><span>Join</span> The Community</h1>
       <p>Become A Part Of CapitalDuck Community, Choose The Path That Best Suits You To Start Earning Real Rewards And Also Have A Say In Our Continuous Protocol Development. </p>
       <div className="socialLogos">
