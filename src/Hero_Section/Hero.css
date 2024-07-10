@@ -130,5 +130,6 @@ p{
     .HeroSec button{
         font-size: 14px;
         padding: 20px 40px;
+        background:black;
     }
 }
