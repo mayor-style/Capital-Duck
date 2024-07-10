@@ -22,7 +22,7 @@ const Why = () => {
 },[])
  
   return (
-    <section>
+    <section className='MainWhySec'>
       <div className="WhySection">
         <h1 >WHY <span>CHOOSE</span> TO FARM DUCK?</h1>
         <div className="WhyGrid ">
