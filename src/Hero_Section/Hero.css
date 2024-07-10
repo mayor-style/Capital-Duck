@@ -120,16 +120,16 @@ p{
 
 @media (max-width:444px){
     .HeroSec h1{
-        font-size: 37px;  
+        font-size: 37px; 
+        font-weight:800;
     }
 
     .HeroSec{
-        padding: 100px 10px 0px 10px;
+        padding: 130px 10px 0px 10px;
     }
     
     .HeroSec button{
         font-size: 14px;
         padding: 20px 40px;
-        background:black;
     }
 }
