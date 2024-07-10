@@ -5,22 +5,12 @@ footer{
 
 .upper{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    padding: 0px 0px;
+    padding: 15px 0px;
     border-bottom: solid 1px rgba(225, 225, 225, .2);
     width: 90%;
     flex-wrap: wrap;
-}
-
-.upper button{
-    padding: 5px 15px;
-    transition: .2s;
-    cursor: pointer;
-}
-
-.upper button:hover{
-   opacity: 0.8;
 }
 
 .upperCon{
@@ -46,13 +36,30 @@ footer{
     gap: 0px;
 }
 
-.footerSec .right{
+.footerSec .upper .right{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+    cursor:ponter;
+}
+
+.socialLogos{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    padding-top: 30px;
+    gap: 15px;
 }
 
+.socialLogos a{
+    
+    color: white;
+    font-size: 25px;
+    padding: 10px;
+   justify-content: center; 
+    border-radius: 50%;
+}
 
 
 .lower {
