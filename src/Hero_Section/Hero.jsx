@@ -17,9 +17,7 @@ const Hero = () => {
   return (
     <section>
         <div className="HeroSec ">
-      <h1 className='hidden'><span className='specialColor'>Welcome</span> to <span className='duck'>CapitalDuck,</span> the ultimate <span className='specialColor'>platform</span> where your taps turn into real rewards!</h1>
-        <p className='hidden'>Dive in now, and start tapping your way to financial freedom. Your journey to earning, learning, and growing begins here!
-        </p>
+      <h1 className='hidden'>Tap, Farm, Earn - Grow Your Wealth with Every Tap!</h1>
         <button className='hidden'>Launch on Telegram</button>
         </div>
     </section>
