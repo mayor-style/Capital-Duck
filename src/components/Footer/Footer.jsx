@@ -11,17 +11,15 @@ const Footer = () => {
       <div className="footerSec">
         <div className="upperCon">
         <div className="upper">
-        <div className="logo">
-        <img src={webIcon} alt="" /> <span className='duck'>CAPITALDUCK</span>
-        </div>
+       
         <div className="right">
-          <h3>FAQ</h3>
-          <button>Launch App</button>
+        <h3>FAQ</h3>
+      
         </div>
         </div>        
         </div>
         <div className="lower">
-          <a href="#">Terms And Condition</a> 
+          <a href="#">Privacy Policy</a> 
           <p> &copy; {year} </p>
         </div>
       </div>
