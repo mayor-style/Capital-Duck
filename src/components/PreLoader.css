@@ -1,7 +1,7 @@
 .preloader{
     height: 100%;
     width: 100%;
-    background: url(Wall.png);
+    background: url(./182428240217.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -11,7 +11,7 @@
     left: 0;
     transform: translateY(-100%);
     right: 0;
-    animation: preloadAnime 5s ease-in-out forwards;
+    animation: preloadAnime 10s ease-in-out forwards;
     z-index: 1000;
     display: flex;
     flex-direction: column;
@@ -28,9 +28,9 @@
 
 .preloader h1{
     font-size: 75px;
-    color: rgb(2, 143, 2);
+    color: gray;
     font-family: "Press Start 2P", system-ui;  
-    padding: 0px 50px;
+    padding: 0px 70px 0px 40px;
     width: 90%;
     word-wrap: break-word;
     text-align: center;
@@ -38,17 +38,21 @@
 
 @keyframes preloadAnime {
     0%{
-        opacity: 0;
+        opacity: 0.5;
        transform-origin: bottom;
         transform:translateY(-100%);  
     }
 
  
-    20%{  
-        opacity: 1;
+    15%{  
+        opacity: 0.8;
         transform: translateY(0);
         transform-origin: bottom; 
     }  
+
+    20%{
+        opacity:1;
+    }
 
     80%{
         
@@ -58,15 +62,11 @@
        
     }  
 
-    90%{
-        filter: blur(1px);
-    }
-
     100%{
         opacity: 0;
         transform: translateY(100%);
         transform-origin: bottom;
-        filter: blur(2px);
+        filter: blur(1px);
     }
 }
 
@@ -86,5 +86,6 @@
 @media (max-width:444px){
     .preloader h1{
         font-size: 40px;
+        width:75%
     }
 }
