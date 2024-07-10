@@ -8,7 +8,7 @@ const What = () => {
   useEffect(()=>{
     const observer = new IntersectionObserver((entries)=>{
       entries.forEach((entry)=>{
-       if ( entry.isIntersecting) { entry.target.classList.add('show-What') 
+       if ( entry.isIntersecting) { entry.target.classList.add('show-What') }
       });
     });
   
