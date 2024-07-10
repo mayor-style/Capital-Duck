@@ -3,6 +3,7 @@ import './LastSection.css'
 import { FaTwitter } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaTelegramPlane } from "react-icons/fa";
+import webIcon from './icon.png'
 
 const LastSection = () => {
   return (
