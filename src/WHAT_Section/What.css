@@ -221,29 +221,29 @@ padding-left: 60px;
 @media (max-width:444px){
 
     .content .right h1{
-        font-size: 33px;
+        font-size: 36px;
         width: 300px;
     }
 
     .WhatSection h1 .what{
-        font-size: 33px;
+        font-size: 36px;
     }
 
     .WhatSection h1 span{
-        font-size: 20px;
+        font-size: 23px;
     }
 
     .WhatSection .content .right p{
-        font-size: 14px;
+        font-size: 15px;
         width: 300px;
     }
 
     .WhatSection .right p span{
-        font-size: 10px;
+        font-size: 12px;
     }
 
     .content .left img{
-        height: 150px;
+        height: 170px;
     }
 
     .content .left{
