@@ -21,7 +21,7 @@ section{
 
 .HeroSec h1{
     font-size: 80px;
-    font-family: "Righteous", sans-serif;
+    
     word-spacing: 1px;
     letter-spacing: 1px;
 }
@@ -44,10 +44,10 @@ p{
     margin-top: 20px;
     font-size: 17px;
     padding: 20px 40px;
-    border-radius: 20px;
+    border-radius: 10px;
     border: none;
     outline: none;
-    font-weight: 500;
+    font-weight: 600;
     cursor: pointer;
     transition: .2s;
 }
@@ -91,7 +91,7 @@ p{
     }
 
     .HeroSec{
-        padding-top: 30px;
+        padding-top: 60px 20px 0px 20px;
     }
 
     .HeroSec h1 span{
@@ -101,13 +101,17 @@ p{
 
 @media (max-width:826px){
     .HeroSec h1, .HeroSec h1 .specialColor{
-        font-size: 45px;
+        font-size: 40px;
     }
 
     .HeroSec h1 span{
         font-size: 35px;
     }
 
+    .HeroSec p{
+        font-size:18px;
+    }
+    
     .HeroSec button{
         font-size: 15px;
         padding: 15px 30px;
@@ -118,15 +122,15 @@ p{
     .HeroSec h1, .HeroSec h1 .specialColor{
         font-size: 37px;
     }
-
-    .HeroSec{
-        padding:40px 35px 20px 35px;
-    }
     
     .HeroSec h1 span{
         font-size: 27px;
     }
 
+    .HeroSec p{
+        font-size:13px
+    }
+    
     .HeroSec button{
         font-size: 14px;
         padding: 15px 30px;
