@@ -11,8 +11,7 @@ const HowToPlay = () => {
   useEffect(()=>{
     const observer = new IntersectionObserver((entries)=>{
       entries.forEach((entry)=>{
-       if ( entry.isIntersecting) { entry.target.classList.add('show-How') }else {entry.target.classList.remove('show-How');
-       }
+       if ( entry.isIntersecting) { entry.target.classList.add('show-How') }
       });
     });
   
