@@ -119,20 +119,16 @@ p{
 }
 
 @media (max-width:444px){
-    .HeroSec h1, .HeroSec h1 .specialColor{
-        font-size: 37px;
-    }
-    
-    .HeroSec h1 span{
-        font-size: 27px;
+    .HeroSec h1{
+        font-size: 37px;  
     }
 
-    .HeroSec p{
-        font-size:13px
+    .HeroSec{
+        padding: 100px 10px 0px 10px;
     }
     
     .HeroSec button{
         font-size: 14px;
-        padding: 15px 30px;
+        padding: 20px 40px;
     }
 }
