@@ -19,7 +19,10 @@
 }
 
 .card{
-    background: linear-gradient(rgba(0, 0, 0, 0.5), black);
+     background:url(./5459752.jpg);
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 400px;
     width: 300px;
     padding: 20px 30px;
@@ -50,39 +53,45 @@
 }
 
 .card p{
-    color: rgba(225, 225, 225, 0.5);
+    color: white;
     font-size: 17px;
     line-height: 1.5;
     font-weight: 500;
 }
 
 .HowToPlaySec .card h2{
-    font-weight: 750;
-    color: rgba(225, 225, 225, .5);
+    font-weight: 900;
+    color: white;
+    font-size:25px;
     padding: 15px 0px;
 }
 
-.HowToPlaySec .card h1{
-    font-size: 40px;
-    padding: 0px;
+.HowToPlaySec .Cardcontainer .hidden-How h1{
+    font-size: 30px;
+    padding: 0px 0px 30px 0px ;
+    font-family: "Press Start 2P", system-ui;
     font-weight: 800;
+    color: white;
 }
 
 .HowToPlaySec .card h3{
     font-weight: 650;
     word-spacing: 1px;
     letter-spacing: .7px;
+    color:greenyellow;
 }
 
 .HowToPlaySec h1{
    font-size: 55px;
    padding-bottom: 60px;
    text-align: center;
+    color:gray;
 }
 
-.HowToPlaySec .play{
+.HowToPlaySec .hidden-What .play{
     font-size: 55px;
-    color: rgba(225, 225, 225, .5);
+    color: white;
+    margin-bottom:30px;
 }
 
 .HowToPlaySec h1 span{
@@ -175,7 +184,6 @@
     }
 
     .card{
-        background: linear-gradient(rgba(0, 0, 0, 0.5), black);
         height: 400px;
         width: 250px;
         padding: 15px 30px;
