@@ -34,7 +34,6 @@
     width: 90%;
     word-wrap: break-word;
     text-align: center;
- 
 }
 
 @keyframes preloadAnime {
@@ -42,16 +41,13 @@
         opacity: 0;
        transform-origin: bottom;
         transform:translateY(-100%);  
-        
     }
 
  
     20%{  
         opacity: 1;
-     
         transform: translateY(0);
-        transform-origin: bottom;
-       
+        transform-origin: bottom; 
     }  
 
     80%{
@@ -63,15 +59,14 @@
     }  
 
     90%{
-        filter: blur(2px);
+        filter: blur(1px);
     }
 
     100%{
         opacity: 0;
         transform: translateY(100%);
         transform-origin: bottom;
-        filter: blur(3px);
-      
+        filter: blur(2px);
     }
 }
 
@@ -91,6 +86,5 @@
 @media (max-width:444px){
     .preloader h1{
         font-size: 40px;
-        width: 70%;
     }
 }
