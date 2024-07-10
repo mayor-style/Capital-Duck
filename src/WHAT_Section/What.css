@@ -1,0 +1,252 @@
+.what{
+    height: 100%;
+    width: 100%;
+    color: white;
+    background: url(./backgd.jpg);
+    background-position: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 50px 0px;
+}
+
+.duck{
+    font-family: "Press Start 2P", system-ui;  
+}
+
+.WhatSection{
+
+    text-align: start;
+}
+
+.WhatSection h1{
+    font-size: 50px;
+    letter-spacing: 1px;
+}
+
+.WhatSection h1 .what{
+    color: rgba(225, 225, 225, .5);
+    font-size: 60px;
+}
+
+.WhatSection h1 span{
+    font-size: 35px
+}
+
+.WhatSection .right p span{
+    font-size: 16px;
+    font-weight: 600;
+    
+}
+
+.WhatSection p{
+    font-size: 22px;
+    line-height: 30px;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.content .left{
+width: 45%;
+padding-left: 60px;
+    
+}
+
+.content .right{
+    width: 55%;
+    padding-right: 60px;
+    
+}
+
+.content .right h1{
+    font-size: 60px;
+}
+.content .left img{
+    height: 500px;
+    animation: float 3s ease-in-out infinite;
+}
+
+.content .right p{
+    font-weight: 490;
+    width: 450px;
+    margin-left: 10px;
+    line-height: 1.5;
+    letter-spacing: .5px;
+    word-spacing: 1px;
+}
+
+.hidden-What{
+    opacity: 0;
+    transition: all 1s;
+    filter: blur(5px);
+   transform-origin: center;
+    transform:scale(0);
+ }
+ 
+ .show-What{
+     opacity: 1;
+     filter: blur(0);
+     transform: scale(1);
+     transform-origin: center;
+ }
+ 
+ 
+ 
+ @media (prefers-reduced-motion){
+ .hidden-What{
+     transition: none;
+ }
+ }
+
+@keyframes float {
+    0%, 100%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-30px);
+        
+    }
+}
+
+@media  (max-width:990px){
+    .content .left img{
+        height: 400px;
+    }
+}
+
+@media (max-width:826px){
+    .content .right h1{
+        font-size: 45px;
+    }
+
+    .WhatSection h1 .what{
+        font-size: 45px;
+    }
+
+    .WhatSection h1 span{
+        font-size: 30px;
+    }
+
+    .WhatSection p{
+        font-size: 18px;
+    }
+
+    .WhatSection .right p span{
+        font-size: 15px;
+    }
+
+    .content .left{
+        width: 50%;
+        padding-left: 30px;
+    }
+
+    .content .right{
+        width: 50%;
+        padding-right: 60px;
+    }
+
+    .content .right p, .content .right h1{
+        width: 320px;
+    }
+}
+
+@media (max-width:675px){
+    .content{
+        flex-direction: column-reverse;
+    }
+
+    .content .right, .content .left{
+        width: 100%;
+        padding: 0px;
+    }
+
+    .content .right h1, .content .right p{
+        width: 530px;
+    }
+
+    .content .right h1{
+        padding-bottom: 15px;
+    }
+
+    .content .left img{
+        padding-left: 350px;
+        height: 300px;
+    }
+}
+
+@media (max-width:575px){
+    .content .right h1{
+        font-size: 40px;
+        width: 375px;
+    }
+
+    .WhatSection h1 .what{
+        font-size: 40px;
+    }
+
+    .WhatSection h1 span{
+        font-size: 25px;
+    }
+
+    .WhatSection .content .right p{
+        font-size: 16px;
+        width: 375px;
+    }
+
+    .WhatSection .right p span{
+        font-size: 13px;
+    }
+
+    .content .right{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .content .left img{
+        height: 200px;
+    }
+
+    .content .left{
+        padding-right: 30px;
+    }
+}
+
+@media (max-width:444px){
+
+    .content .right h1{
+        font-size: 33px;
+        width: 300px;
+    }
+
+    .WhatSection h1 .what{
+        font-size: 33px;
+    }
+
+    .WhatSection h1 span{
+        font-size: 20px;
+    }
+
+    .WhatSection .content .right p{
+        font-size: 14px;
+        width: 300px;
+    }
+
+    .WhatSection .right p span{
+        font-size: 10px;
+    }
+
+    .content .left img{
+        height: 150px;
+    }
+
+    .content .left{
+        padding-right: 60px;
+    }
+}

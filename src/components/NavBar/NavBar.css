@@ -1,0 +1,186 @@
+
+nav{
+    height: 100%;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.NavBar{
+    display: flex;
+    height:20px;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 50px;
+    padding-top: 15px;
+}
+
+a{
+    color: white;
+}
+
+
+.NavBar .left img{
+    height: 120px;
+    cursor: pointer;
+
+}
+
+.NavBar .middle button{
+    font-size: 17px;
+    cursor: pointer;
+    padding: 7px 17px;
+    font-weight: 500;
+    outline: none;
+    border: none;
+    transition: .2s;
+}
+
+.NavBar .middle button:hover{
+    opacity: 0.8;
+}
+
+.NavBar .right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+
+.socials{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+}
+
+ .socials .icon{
+    font-size: 25px;
+}
+
+.hamburger{
+    display: none;
+}
+
+.hamburger span{
+    font-size: 40px;
+    font-weight: lighter;
+    cursor: pointer;
+   
+}
+
+.mobileNav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 70px;
+}
+
+@keyframes navAnime {
+    0%{
+        opacity: 0;
+        filter: blur(5px);
+       transform-origin: right;
+        transform:translateX(100%);    
+    }
+
+    30%{
+        opacity: 0.5;
+        filter: blur(2px);
+    }
+    50%{
+        
+        opacity: 1;
+        filter: blur(0px);
+        transform: translateX(0);
+        transform-origin: left;
+    }
+
+   
+}
+
+@media  (max-width:990px){
+   .NavBar .middle, .NavBar .right{
+    display:block;
+   }
+    
+   .hamburger{
+    display: block;
+  
+    
+   }  
+
+   .NavBar .left img{
+    height: 100px;
+   }
+
+   .NavBar .hamburger{
+    padding-right: 30px;
+   }
+
+   .NavBar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 500;
+    background-color: black;
+    padding: 20px 0px;
+   }
+
+   .mobileNav .right{
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    cursor: pointer;
+   }
+
+
+.mobileNav .right .socials{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+
+   .mobileNav{
+    flex-direction: column-reverse;
+    height: 100%; 
+    right: 0;
+    display: none;
+    position: fixed;
+    top: 0;
+    transition: 1s ;
+    animation: navAnime 1s ease-in-out;
+    transform: translateY(0);
+    justify-content: center;
+    backdrop-filter: blur(15px);
+    width: 50%;
+    align-items: center;
+    box-shadow: -10px 0 10px rgba(0, 0, 0, .5);
+    background-color: rgba(225, 225, 225, .3);
+   }
+
+   .mobileNav .showBurger{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 20px;
+   }
+
+   .mobileNav .showBurger img{
+    height: 40px;
+    cursor: pointer;
+   } 
+}
+
+@media (max-width:444px) {
+    .mobileNav{
+        width: 100%;
+    }
+}
+
+
+
+

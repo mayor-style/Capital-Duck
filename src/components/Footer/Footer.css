@@ -1,0 +1,102 @@
+footer{
+    height: 100%;
+    width: 100%;
+}
+
+.upper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 0px;
+    border-bottom: solid 1px rgba(225, 225, 225, .2);
+    width: 90%;
+    flex-wrap: wrap;
+}
+
+.upper button{
+    padding: 5px 15px;
+    transition: .2s;
+    cursor: pointer;
+}
+
+.upper button:hover{
+   opacity: 0.8;
+}
+
+.upperCon{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerSec img{
+    height: 100px;
+}
+
+.footerSec span{
+    margin-left: -30px;
+}
+
+.footerSec .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+}
+
+.footerSec .right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+
+
+.lower {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 15px 0px;
+}
+
+.lower a{
+    color: rgba(225, 225, 225, .5);
+}
+
+@media (max-width:575px){
+    .upper .logo span{
+        display: none;
+    }
+}
+
+@media (max-width:444px){
+    .upper{
+        flex-wrap: nowrap;
+    }
+
+    .upper button{
+        padding: 3px 13px;
+    }
+
+    .footerSec img{
+        height: 80px;
+    }
+
+    .footerSec .right h3{
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .lower{
+        padding: 10px 0px;
+    }
+
+    .lower a, .lower p{
+        font-size: 15px;
+        font-weight: 400;
+    }
+}

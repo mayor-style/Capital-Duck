@@ -1,0 +1,138 @@
+section{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+ .HeroSec{
+    padding: 20px 70px 30px 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.HeroSec h1 .specialColor{
+    color: rgba(255, 255, 255, .5);
+    font-size: 80px;
+}
+
+.HeroSec h1{
+    font-size: 80px;
+    font-family: "Righteous", sans-serif;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+}
+
+.HeroSec h1 span{
+    font-size: 60px;
+}
+
+p{
+    color: rgba(255, 255, 255, .5);
+}
+
+.HeroSec p{
+    font-size: 22px;
+    padding-top: 15px;
+    font-weight: 500;
+}
+
+.HeroSec button{
+    margin-top: 20px;
+    font-size: 17px;
+    padding: 20px 40px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    font-weight: 500;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.HeroSec button:hover{
+    opacity: 0.7;
+}
+
+.hidden{
+   opacity: 0;
+   transition: all 1s;
+   filter: blur(5px);
+  transform-origin: left;
+   transform: translateX(-100%);
+}
+
+.show{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+    transform-origin: right;
+}
+
+.hidden:nth-child(2){
+    transition-delay: 200ms;
+}
+
+.hidden:nth-child(3){
+    transition-delay: 400ms;
+}
+
+@media (prefers-reduced-motion){
+.hidden{
+    transition: none;
+}
+}
+
+@media  (max-width:990px){
+    .HeroSec h1, .HeroSec h1 .specialColor{
+        font-size: 65px;
+    }
+
+    .HeroSec{
+        padding-top: 0px;
+    }
+
+    .HeroSec h1 span{
+        font-size: 45px;
+    }
+}
+
+@media (max-width:826px){
+    .HeroSec h1, .HeroSec h1 .specialColor{
+        font-size: 45px;
+    }
+
+    .HeroSec h1 span{
+        font-size: 35px;
+    }
+
+    .HeroSec p{
+        font-size: 18px;
+    }
+
+    .HeroSec button{
+        font-size: 15px;
+        padding: 15px 30px;
+    }
+}
+
+@media (max-width:444px){
+    .HeroSec h1, .HeroSec h1 .specialColor{
+        font-size: 37px;
+    }
+
+    .HeroSec h1 span{
+        font-size: 27px;
+    }
+
+    .HeroSec p{
+        font-size: 13px;
+    }
+
+    .HeroSec button{
+        font-size: 14px;
+        padding: 15px 30px;
+    }
+}

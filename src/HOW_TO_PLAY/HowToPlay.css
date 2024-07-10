@@ -1,0 +1,187 @@
+.How{
+    height: 100%;
+    margin-top: 100px;
+    width: 100%;
+    background: url(./back.gd.jpg);
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: cover;
+    color: white;
+    padding: 70px 0px;
+
+}
+
+.Cardcontainer{
+    display: grid;
+    grid-template-columns: 500px 500px;
+    column-gap: 30px;
+    row-gap: 100px;
+}
+
+.card{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), black);
+    height: 400px;
+    width: 300px;
+    padding: 20px 30px;
+    border-radius: 10px;
+    border-bottom: solid 3px white;
+    border-top: solid 3px white; 
+}
+
+.cardCon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.card span{
+    background-color: white;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 20px;
+    margin-right: 5px;
+}
+
+.card .details{
+    text-align: left;
+    padding-top: 10px;
+}
+
+.card p{
+    color: rgba(225, 225, 225, 0.5);
+    font-size: 17px;
+    line-height: 1.5;
+    font-weight: 500;
+}
+
+.HowToPlaySec .card h2{
+    font-weight: 750;
+    color: rgba(225, 225, 225, .5);
+    padding: 15px 0px;
+}
+
+.HowToPlaySec .card h1{
+    font-size: 40px;
+    padding: 0px;
+    font-weight: 800;
+}
+
+.HowToPlaySec .card h3{
+    font-weight: 650;
+    word-spacing: 1px;
+    letter-spacing: .7px;
+}
+
+.HowToPlaySec h1{
+   font-size: 55px;
+   padding-bottom: 60px;
+   text-align: center;
+}
+
+.HowToPlaySec .play{
+    font-size: 55px;
+    color: rgba(225, 225, 225, .5);
+}
+
+.HowToPlaySec h1 span{
+    font-size: 45px;
+}
+
+
+.hidden-How{
+    opacity: 0;
+    transition: all 1s;
+    filter: blur(5px);
+   transform-origin: top;
+    transform:translateY(50%);
+ }
+ 
+ .show-How{
+     opacity: 1;
+     filter: blur(0);
+     transform: translateY(0%);
+     transform-origin: bottom;
+ }
+ 
+ 
+ 
+ @media (prefers-reduced-motion){
+ .hidden-How{
+     transition: none;
+ }
+ }
+
+@media  (max-width:826px){
+    .HowToPlaySec h1{
+        font-size: 45px;
+    }
+
+    .HowToPlaySec .play{
+        font-size: 45px;
+    }
+
+    .HowToPlaySec h1 span{
+        font-size: 35px;
+    }
+}
+
+@media (max-width:575px){
+    .HowToPlaySec h1{
+        font-size: 35px;
+    }
+
+    .HowToPlaySec .play{
+        font-size: 35px;
+    }
+
+    .HowToPlaySec h1 span{
+        font-size: 25px;
+    }
+}
+
+@media (max-width:444px){
+    .HowToPlaySec h1{
+        font-size: 28px;
+    }
+
+    .HowToPlaySec .play{
+        font-size: 28px;
+    }
+
+    .HowToPlaySec h1 span{
+        font-size: 20px;
+    }
+
+    .HowToPlaySec .card h3{
+        font-weight: 600;
+        word-spacing: 1px;
+        letter-spacing: .7px;
+    }
+
+    .HowToPlaySec .card h1{
+        font-size: 33px;
+        padding: 0px;
+        font-weight: 800;
+    }
+
+    .card p{
+        font-size: 15px;
+    }
+
+    .card span{
+        padding: 3px 7px;
+    }
+
+    .card{
+        background: linear-gradient(rgba(0, 0, 0, 0.5), black);
+        height: 400px;
+        width: 250px;
+        padding: 15px 30px;
+        border-radius: 10px;
+        border-bottom: solid 3px white;
+        border-top: solid 3px white;  
+    }
+}
