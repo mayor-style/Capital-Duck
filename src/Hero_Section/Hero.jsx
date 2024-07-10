@@ -18,7 +18,7 @@ const Hero = () => {
     <section>
         <div className="HeroSec ">
       <h1 className='hidden'>Tap, Farm, Earn - Grow Your Wealth with Every Tap!</h1>
-        <button className='hidden'>Launch on Telegram</button>
+        <button className='hidden'>Launch Capital Duck on Telegram</button>
         </div>
     </section>
   )
