@@ -1,7 +1,13 @@
-section{
+.MainWhySec{
     height: 100%;
     width: 100%;
     color: white;
+    margin-top: -200px;
+    background-image: url(./backgd.jpg);
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .WhyGrid{
