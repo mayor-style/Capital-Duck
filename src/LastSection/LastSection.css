@@ -64,11 +64,11 @@ section{
 @media (max-width:444px){
 
     .lastSec h1{
-        font-size: 28px;
+        font-size: 30px;
     }
 
     .lastSec p{
-        font-size: 13px;
+        font-size: 15px;
         width: 300px;
     }
 
