@@ -20,7 +20,7 @@ section{
 }
 
 .HeroSec h1{
-    font-size: 80px;
+    font-size: 75px;
     
     word-spacing: 1px;
     letter-spacing: 1px;
@@ -87,7 +87,7 @@ p{
 
 @media  (max-width:990px){
     .HeroSec h1, .HeroSec h1 .specialColor{
-        font-size: 65px;
+        font-size: 62px;
     }
 
     .HeroSec{
@@ -101,7 +101,7 @@ p{
 
 @media (max-width:826px){
     .HeroSec h1, .HeroSec h1 .specialColor{
-        font-size: 40px;
+        font-size: 38px;
     }
 
     .HeroSec h1 span{
@@ -120,7 +120,7 @@ p{
 
 @media (max-width:444px){
     .HeroSec h1{
-        font-size: 37px; 
+        font-size: 35px; 
         font-weight:700;
     }
 
