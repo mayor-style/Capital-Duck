@@ -97,6 +97,11 @@
  }
  }
 
+@media  (max-width:1000px){
+        .WhyGrid{
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+    
 @media  (max-width:826px){
     .WhyGrid{
         grid-template-columns: 1fr 1fr;
