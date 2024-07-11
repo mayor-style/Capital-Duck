@@ -32,10 +32,7 @@ useEffect(()=>{
             </div>
 
             <div id="middleNav">
-            <div className="middle">
-                <button>Launch Capital Duck</button>
-            </div>
-               
+         
             <div className="right">
                 <h2>FAQ</h2>
                 <div className="socials">
