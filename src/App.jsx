@@ -18,7 +18,7 @@ function App() {
     useEffect(()=>{
       const timeout= setTimeout(()=>{
         setPreload(false)
-      }, 5100)
+      }, 11000)
       
     },[])
 
