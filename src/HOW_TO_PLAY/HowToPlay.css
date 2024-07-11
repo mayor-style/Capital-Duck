@@ -60,7 +60,7 @@
     text-align: center;
     border-bottom-left-radius: 90%;
     border-bottom-right-radius: 90%;
-    padding: 15px 15px 60px ;
+    padding: 15px 15px 60px 15px;
     background-color: black;
     width: 100%;
 }
@@ -185,7 +185,6 @@
     .card{
         height: 400px;
         width: 250px;
-        padding: 15px 30px;
         border-radius: 10px;
         border-bottom: solid 3px white;
         border-top: solid 3px white;  
