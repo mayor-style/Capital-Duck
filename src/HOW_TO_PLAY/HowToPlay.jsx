@@ -64,7 +64,7 @@ const HowToPlay = () => {
         </div>
         <div className="hidden-How">
           <h1>STEP FOUR</h1>
-         <div className="card" style={{border:"solid 3px gray"}}>
+         <div className="card" style={{border:"solid 3px orange"}}>
           <h2><span><BsCashCoin /></span> Collect and Convert Coins </h2>
           <div className="details">
           <h3> Coin Conversion:</h3>
