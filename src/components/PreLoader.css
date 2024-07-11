@@ -1,7 +1,7 @@
 .preloader{
     height: 100%;
     width: 100%;
-    background: url(./182428240217.jpg);
+    background: url(./photo_2024-07-11_01-20-45.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -11,7 +11,7 @@
     left: 0;
     transform: translateY(-100%);
     right: 0;
-    animation: preloadAnime 10s ease-in-out forwards;
+    animation: preloadAnime 11s ease-in-out forwards;
     z-index: 1000;
     display: flex;
     flex-direction: column;
@@ -28,10 +28,10 @@
 
 .preloader h1{
     font-size: 75px;
-    color: gray;
-    font-family: "Press Start 2P", system-ui;  
+    color: white; 
     padding: 0px 70px 0px 40px;
     width: 90%;
+    font-weight:800;
     word-wrap: break-word;
     text-align: center;
 }
@@ -78,14 +78,14 @@
 
 @media (max-width:826px) {
    .preloader h1{
-        font-size: 45px;
-        padding-right: 50px;
+        font-size: 40px;
+       transform:translate(-6%);
     }
 }
 
 @media (max-width:444px){
     .preloader h1{
         font-size: 40px;
-        width:75%
+        width:90%;
     }
 }
