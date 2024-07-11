@@ -34,7 +34,7 @@ useEffect(()=>{
             <div id="middleNav">
          
             <div className="right">
-                <h2>FAQ</h2>
+                <p>FAQ</p>
                 <div className="socials">
                 <a href="https://twitter.com"> <FaTwitter className='icon'/></a>
                 <a href="https://instagram.com"> <FaInstagram className='icon'/></a>
