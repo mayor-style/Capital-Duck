@@ -132,6 +132,11 @@ nav{
     flex-direction: column;
    }
 
+    .showNav .right p{
+        font-size:20px;
+        font-weight:600;
+        cursor:pointer;
+    }
 
     .showNav .right .socials{
         display: flex;
@@ -160,7 +165,7 @@ nav{
    }
 
    .NavBar .showNav .socials .icon{
-    font-size: 22px;
+    font-size: 24px;
 }
 
    .NavBar .showNav .middle button{
