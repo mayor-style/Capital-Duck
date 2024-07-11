@@ -17,7 +17,7 @@ const LastSection = () => {
       <div className="socialLogos">
       <a href="https://twitter.com"> <FaTwitter className='icon'/></a>
         <a href="https://instagram.com"> <FaInstagram className='icon'/></a>
-        <a href="https://telegram.org"> <FaTelegramPlane className='icon'/></a>
+        <a href="https://t.me/CapitalDuckApp"> <FaTelegramPlane className='icon'/></a>
       </div>
         </div>
     </section>
