@@ -36,12 +36,13 @@ useEffect(()=>{
             <div className="right">
                 <div className="faq">
                 <p>FAQ</p>
+                   </div>
                 <div className="socials">
                 <a href="https://twitter.com"> <FaTwitter className='icon'/></a>
                 <a href="https://instagram.com"> <FaInstagram className='icon'/></a>
                 <a href="https://telegram.org"> <FaTelegramPlane className='icon'/></a>
                 </div>
-                </div>
+                
             </div>
 
              <div className="showBurger">
