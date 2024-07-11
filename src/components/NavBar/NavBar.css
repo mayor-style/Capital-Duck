@@ -34,6 +34,7 @@ a{
     justify-content: space-between;
     align-items: center;
     gap: 60px;
+    flex-direction:row;
     text-align:center;
     cursor: pointer;
 }
