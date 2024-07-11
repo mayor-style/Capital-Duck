@@ -79,7 +79,7 @@
 @media (max-width:826px) {
    .preloader h1{
         font-size: 40px;
-       transform:translate(-6%);
+       transform:translate(-5%);
     }
 }
 
