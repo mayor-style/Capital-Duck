@@ -53,7 +53,7 @@ const HowToPlay = () => {
         <div className="hidden-How">
          
           <h1>STEP THREE</h1>
-         <div className="card" style={{border:"solid 3px gray"}}>
+         <div className="card" style={{border:"solid 3px blue"}}>
           <h2><span><FaPeopleGroup /></span> Invite Friends</h2>
           <div className="details">
           <h3> Earn Bonuses: </h3>
@@ -64,7 +64,7 @@ const HowToPlay = () => {
         </div>
         <div className="hidden-How">
           <h1>STEP FOUR</h1>
-         <div className="card" style={{border:"solid 3px blue"}}>
+         <div className="card" style={{border:"solid 3px gray"}}>
           <h2><span><BsCashCoin /></span> Collect and Convert Coins </h2>
           <div className="details">
           <h3> Coin Conversion:</h3>
