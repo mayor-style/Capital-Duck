@@ -27,19 +27,7 @@ a{
 
 }
 
-.NavBar #middleNav .middle button{
-    font-size: 17px;
-    cursor: pointer;
-    padding: 7px 17px;
-    font-weight: 500;
-    outline: none;
-    border: none;
-    transition: .2s;
-}
 
-.NavBar #middleNav .middle button:hover{
-    opacity: 0.8;
-}
 
 .NavBar #middleNav .right{
     display: flex;
@@ -55,11 +43,11 @@ a{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 25px;
+    gap: 27px;
 }
 
  .NavBar #middleNav .socials .icon{
-    font-size: 23px;
+    font-size: 24px;
 }
 
  .NavBar #middleNav .right p{
