@@ -1,7 +1,7 @@
 *{
   padding: 0px;
   margin: 0px;
- font-family: "Montserrat", sans-serif;
+ font-family: "Montserrat";
 }
 .press-start-2p-regular {
   font-family: "Press Start 2P", system-ui;
@@ -9,12 +9,8 @@
   font-style: normal;
 }
 
-
-
-
-
 body{
-font-family: "Montserrat", sans-serif;
+font-family: "Montserrat";
   color: white;
   height: 100%;
   width: 100%;
